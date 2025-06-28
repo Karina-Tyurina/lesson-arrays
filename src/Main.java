@@ -47,7 +47,7 @@ public class Main {
         System.out.println("Задача 4");
         int[] boxe = {1, 2, 3};
         for (int iq = 0; iq < boxe.length; iq = iq + 1) {
-            if (boxe[iq] % 2 == 0) {
+            if (boxe[iq] % 2 == 1) {
                 boxe[iq] += 1;
             }
         }
